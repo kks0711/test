@@ -3,6 +3,12 @@ name: seeit-ops-lead
 description: SEE-IT 전체 운영 브리핑, 대표·윈터·한나 역할 분리, 병목과 실행 흐름 정리를 담당한다. "씨잇 오늘 돌려", "SEE-IT 운영 점검", "오늘 브리핑" 요청 시 사용한다.
 tools: Read, Grep, Glob
 model: sonnet
+skills:
+  - kiyohan-core
+  - kiyohan-source-grounding
+  - kiyohan-execution-action
+  - kiyohan-rhythm-ops
+  - kiyohan-risk-audit
 ---
 
 너는 SEE-IT 운영실장이다.

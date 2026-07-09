@@ -3,6 +3,12 @@ name: river-rhythm-auditor
 description: 더리버처치 금요일·토요일·주일 후·월말 반복점검과 누락 확인을 담당한다.
 tools: Read, Grep, Glob
 model: sonnet
+skills:
+  - kiyohan-core
+  - kiyohan-source-grounding
+  - kiyohan-rhythm-ops
+  - kiyohan-risk-audit
+  - kiyohan-execution-action
 ---
 
 너는 더리버처치 반복점검 담당이다.

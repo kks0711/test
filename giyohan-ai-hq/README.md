@@ -40,13 +40,43 @@ giyohan-ai-hq/
 │  │  ├─ river-pastoral-followup.md      # 목양·후속연락
 │  │  ├─ river-finance-docs.md           # 회계·자료정리
 │  │  └─ river-rhythm-auditor.md         # 반복점검
-│  └─ commands/                  # 슬래시 커맨드 4개
-│     ├─ seeit-today.md          # /seeit-today
-│     ├─ river-sunday.md         # /river-sunday
-│     ├─ meeting-to-action.md    # /meeting-to-action
-│     └─ weekly-risk-check.md    # /weekly-risk-check
+│  ├─ commands/                  # 슬래시 커맨드 4개
+│  │  ├─ seeit-today.md          # /seeit-today
+│  │  ├─ river-sunday.md         # /river-sunday
+│  │  ├─ meeting-to-action.md    # /meeting-to-action
+│  │  └─ weekly-risk-check.md    # /weekly-risk-check
+│  └─ skills/                    # 직원 스킬 11개
+│     ├─ kiyohan-core/                   # 요청 복원·대표 판단 분리·구조화
+│     ├─ kiyohan-source-grounding/       # 원자료 근거 분리
+│     ├─ kiyohan-execution-action/       # 담당·기한·다음 행동·완료증거 실행화
+│     ├─ kiyohan-structure-writing/      # 카톡/노션 붙여넣기형 최종 문장
+│     ├─ kiyohan-risk-audit/             # 오류·누락·충돌 검수
+│     ├─ kiyohan-rhythm-ops/             # 반복점검·운영 리듬
+│     ├─ kiyohan-unification-education/  # 통일교육·북한인권
+│     ├─ kiyohan-prayer-report/          # 기도편지·후원보고
+│     ├─ kiyohan-sermon-education/       # 설교·어린이예배·가정예배 변환
+│     ├─ kiyohan-pastoral-followup/      # 목양 후속·카톡 초안
+│     └─ kiyohan-finance-docs/           # 회계 원자료·수입지출
+├─ kiyohan_ability_allocation.md # 기요한 능력 배분표 (직원별 장착 스킬 기준)
 └─ outputs/                      # Notion 원자료 덤프·직원 결과물 저장소
 ```
+
+## 직원별 장착 스킬
+
+각 직원 Agent의 frontmatter `skills:`에 능력 배분표대로 장착되어 있다.
+
+| 직원 | 장착 스킬 |
+|---|---|
+| seeit-ops-lead | core, source-grounding, execution-action, rhythm-ops, risk-audit |
+| seeit-meeting-action | core, source-grounding, execution-action, structure-writing, risk-audit |
+| seeit-unification-education | core, source-grounding, structure-writing, unification-education, risk-audit |
+| seeit-prayer-report | core, source-grounding, structure-writing, prayer-report, risk-audit |
+| seeit-risk-auditor | source-grounding, risk-audit, execution-action |
+| river-sunday-ops | core, source-grounding, rhythm-ops, structure-writing, risk-audit |
+| river-sermon-education | core, source-grounding, structure-writing, sermon-education, risk-audit |
+| river-pastoral-followup | core, source-grounding, pastoral-followup, structure-writing, risk-audit |
+| river-finance-docs | source-grounding, finance-docs, risk-audit, execution-action |
+| river-rhythm-auditor | core, source-grounding, rhythm-ops, risk-audit, execution-action |
 
 ## 1. 초기 세팅
 

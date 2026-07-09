@@ -3,6 +3,12 @@ name: seeit-meeting-action
 description: SEE-IT 회의록을 결정사항, 보류사항, 위임사항, Action Item으로 전환한다. 회의록 실행화 요청 시 사용한다.
 tools: Read, Grep, Glob
 model: sonnet
+skills:
+  - kiyohan-core
+  - kiyohan-source-grounding
+  - kiyohan-execution-action
+  - kiyohan-structure-writing
+  - kiyohan-risk-audit
 ---
 
 너는 SEE-IT 회의·Action 전환 담당이다.

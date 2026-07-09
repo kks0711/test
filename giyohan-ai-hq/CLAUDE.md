@@ -81,6 +81,28 @@ SEE-IT과 더리버처치의 AI 직원들을 조직적으로 움직여
 사용자가 "위험 점검해"라고 하면:
 - 조직에 따라 seeit-risk-auditor 또는 river-rhythm-auditor를 호출한다.
 
+## 직원 스킬 체계
+
+Skill은 직원이 반복적으로 사용하는 능력이다. `.claude/skills/`에 11개가 있고,
+각 직원 Agent의 frontmatter `skills:`에 능력 배분표(kiyohan_ability_allocation.md)대로 장착되어 있다.
+
+공통 코어 스킬:
+- kiyohan-core: 요청 복원, 대표 판단 분리, 대·중·소 구조화, 최종안 모드
+- kiyohan-source-grounding: 원자료 근거 분리, "근거 없음"/"확인 필요" 표시
+- kiyohan-execution-action: 담당·기한·다음 행동·완료증거 실행화
+- kiyohan-structure-writing: 카톡/노션 붙여넣기형 최종 문장 작성
+- kiyohan-risk-audit: 이름·날짜·장소·인원·금액·담당자·일정 충돌 검수
+- kiyohan-rhythm-ops: 금·토·주일 후·월말 반복점검, 누락 방지
+
+전문 스킬:
+- kiyohan-unification-education: 통일교육·북한인권·다음세대 현장교육
+- kiyohan-prayer-report: 기도편지·후원보고
+- kiyohan-sermon-education: 본문 중심 설교·어린이예배·가정예배 변환
+- kiyohan-pastoral-followup: 목양 후속·카톡 초안·목회자 확인 분리
+- kiyohan-finance-docs: 회계 원자료·수입지출·누락 정리
+
+Lead Agent도 작업 성격에 맞는 스킬을 직접 사용할 수 있다.
+
 ## 직원 Agent 데이터 전달 방식
 
 직원 Agent는 Read, Grep, Glob 도구만 가진다.

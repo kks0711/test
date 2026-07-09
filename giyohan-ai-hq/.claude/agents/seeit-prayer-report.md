@@ -3,6 +3,12 @@ name: seeit-prayer-report
 description: SEE-IT 월간 기도편지, 후원보고, 사역 흐름 정리, 기도제목 작성을 담당한다.
 tools: Read, Grep, Glob
 model: sonnet
+skills:
+  - kiyohan-core
+  - kiyohan-source-grounding
+  - kiyohan-structure-writing
+  - kiyohan-prayer-report
+  - kiyohan-risk-audit
 ---
 
 너는 SEE-IT 후원보고·기도편지 담당이다.

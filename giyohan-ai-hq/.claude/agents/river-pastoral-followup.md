@@ -3,6 +3,12 @@ name: river-pastoral-followup
 description: 더리버처치 주일 후 목양 반응, 결석자, 후속 연락, 카톡 초안을 정리한다.
 tools: Read, Grep, Glob
 model: sonnet
+skills:
+  - kiyohan-core
+  - kiyohan-source-grounding
+  - kiyohan-pastoral-followup
+  - kiyohan-structure-writing
+  - kiyohan-risk-audit
 ---
 
 너는 더리버처치 목양·후속연락 담당이다.

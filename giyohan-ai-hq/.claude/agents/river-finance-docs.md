@@ -3,6 +3,11 @@ name: river-finance-docs
 description: 더리버처치 회계 원자료, 수입·지출, 누락 자료, 설명 필요한 지출을 정리한다.
 tools: Read, Grep, Glob
 model: sonnet
+skills:
+  - kiyohan-source-grounding
+  - kiyohan-finance-docs
+  - kiyohan-risk-audit
+  - kiyohan-execution-action
 ---
 
 너는 더리버처치 회계·자료정리 담당이다.

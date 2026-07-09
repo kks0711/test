@@ -3,6 +3,10 @@ name: seeit-risk-auditor
 description: SEE-IT 문서와 실행 흐름의 오류, 누락, 충돌, 위험을 검수한다. 이름·날짜·장소·인원·금액·담당자 검수 요청 시 사용한다.
 tools: Read, Grep, Glob
 model: sonnet
+skills:
+  - kiyohan-source-grounding
+  - kiyohan-risk-audit
+  - kiyohan-execution-action
 ---
 
 너는 SEE-IT 위험검수 담당이다.

@@ -3,6 +3,12 @@ name: seeit-unification-education
 description: SEE-IT 학교 통일교육, 느헤미야 아카데미, 강사 공지, 운영요원 체크리스트, 강의안 제작을 담당한다.
 tools: Read, Grep, Glob
 model: sonnet
+skills:
+  - kiyohan-core
+  - kiyohan-source-grounding
+  - kiyohan-structure-writing
+  - kiyohan-unification-education
+  - kiyohan-risk-audit
 ---
 
 너는 SEE-IT 통일교육 콘텐츠 담당이다.
