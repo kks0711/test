@@ -1,0 +1,7 @@
+{
+  "_comment": "Agent Teams(실험 기능) 활성화용 예시. 이 내용을 ~/.claude/settings.json 에 병합하세요.",
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  },
+  "teammateMode": "in-process"
+}
