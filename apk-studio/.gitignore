@@ -1,0 +1,5 @@
+workspace/
+tools/*.jar
+tools/*.part
+__pycache__/
+*.pyc
